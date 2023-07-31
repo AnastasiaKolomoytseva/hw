@@ -58,7 +58,7 @@ for (let fridayNumber = 1; fridayNumber <= 31; fridayNumber++) {
    if (fridayNumber % 7 == 0) {
     console.log(`Сегодня пятница, ${fridayNumber} число. Необходимо подготовить отчет.`)
    };
-   continue
+   continue;
 
 }
 console.log('Сегодня не пятница, нет необходимости готовить отчет');
